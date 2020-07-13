@@ -1,0 +1,86 @@
+<div class="col-md-9" id="contenedorNav">
+    <nav class="navbar navbar-expand-lg navbar-light" id="barraqla">
+     <!-- <a class="navbar-brand" href="#" id="txtNav"></a> -->
+     <img src="https://i.pinimg.com/originals/33/b8/69/33b869f90619e81763dbf1fccc896d8d.jpg" id="fotologo" alt="..." class="img-thumbnail">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" id="txtNav"><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/inicio" id="txtNav">𝙄𝙣𝙞𝙘𝙞𝙤<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/perfil/{{user.id}}" id="txtNav">𝙋𝙚𝙧𝙛𝙞𝙡<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/mis-productos" id="txtNav">𝙈𝙞𝙨 𝙋𝙧𝙤𝙙𝙪𝙘𝙩𝙤𝙨<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/agregar-producto" id="txtNav">𝘼𝙜𝙧𝙚𝙜𝙖𝙧 𝙪𝙣 𝙥𝙧𝙤𝙙𝙪𝙘𝙩𝙤<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="txtNav" (click)="logout()">𝙎𝙖𝙡𝙞𝙧</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="/buscar">𝘽𝙪𝙨𝙘𝙖𝙧</button>
+        </form>
+      </div>
+    </nav>
+
+   </div>
+   <div class="container" id="producto">
+       <div class="container" id="fotoproducto">
+        <div class="card" id="cartas">
+            <img id="fotoCarta" src="https://i.blogs.es/ddcb82/asi-ctt-lifestylehouse-1440-smartthings-063016/450_1000.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+            
+
+       </div>
+
+       <div class="container" id="descripcion">
+        <div class="container form-inline" id="contenedorN">
+            <span class="label label-primary" id="lblnombre" >𝙉𝙤𝙢𝙗𝙧𝙚: </span>
+            <input class="form-control" id="patatas" type="text" placeholder="Nombre Producto" readonly>
+        </div>
+        <div class="container form-inline" id="contenedorN">
+            <span class="label label-primary" id="lbltipo" >𝙏𝙞𝙥𝙤: </span>
+            <input class="form-control" id="patatas" type="text" placeholder="Tipo Producto" readonly>
+        </div>
+        <div class="container form-inline" id="contenedorN">
+            <span class="label label-primary" id="lblmarca" >𝙈𝙖𝙧𝙘𝙖: </span>
+            <input class="form-control" id="patatas" type="text" placeholder="Marca" readonly>
+        </div>
+        <div class="container form-inline"  id="contenedorN">
+            <span class="label label-primary" id="lblcondicion" >𝘾𝙤𝙣𝙙𝙞𝙘𝙞𝙤𝙣: </span>
+            <input class="form-control" id="patatas" type="text" placeholder="Condición Producto" readonly>
+        </div>
+        
+        <div class="container form-inline" id="contenedorD">   
+            <span class="label label-primary" id="lbldescripcion" >𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣: </span>
+            <input class="form-control" id="txtdescripcion" type="text" placeholder="Descripción" readonly>
+        </div>
+       
+           <div class="container" id="perfilusuario"> 
+            <span class="label label-primary" id="lbldescripcion" >𝙋𝙤𝙨𝙩𝙚𝙖𝙙𝙤 𝙥𝙤𝙧: </span>
+            <img src="https://i.pinimg.com/originals/74/6e/6f/746e6f17620864dfe877eb2f4c4a3f58.jpg" id="foto">
+            <a type="button" id="btnpersona" href="/perfil" class="btn btn-primary">𝙐𝙨𝙚𝙧𝙓</a>
+
+
+
+           </div>
+
+       </div>
+
+   </div>

@@ -1,0 +1,48 @@
+<div class="d-flex flex-wrap flex-md-nowrap pt-3 pb-2 mb-3 border-bottom" >
+    <p class="text-warning">Lista de usuarios</p>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <div class="col-sm-3 float-right">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="buscar" >
+                <div class="input-group-append">
+                    <a class="btn btn-outline-success" type="button" routerLink="crear" >Nuevo</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="card-body p-0">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">nombre</th>
+                    <th scope="col">apellido</th>
+                    <th scope="col">direccion</th>
+                    <th scope="col">correo</th>
+                    <th scope="col">password</th>
+                    <th scope="col">id</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users" >
+                    <th scope="row">{{user.nombre}}</th>
+                    <td>{{user.apellido}}</td>
+                    <td>{{user.direccion}}</td>
+                    <td>{{user.correo}}</td>
+                    <td>{{user.password}}</td>
+                    <td>{{user.id}}</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <a class="btn btn-sm btn-outline-primary" routerLink="/privado/Admin/AdminEditarUsuarios/{{user.id}}">Editar</a>
+                            <button type="button" class="btn btn-sm btn-outline-danger">Eliminar</button>                            
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

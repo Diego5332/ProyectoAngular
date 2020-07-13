@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(https://i.pinimg.com/originals/45/e1/36/45e136031edebdabec2032a296bf3184.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+
+#fotologo{
+    width: 5%;
+    margin-left: 12.5%;
+}
+
+
+#rrss{
+    margin-left: 48%;
+    background-color: white;
+    width: auto;
+}
+#piepagina{
+    background-color: rgba(54,10,84,0.8);
+    
+}
+
+#contenedorNav{
+    max-width: 100%;
+    background-color: rgba(153,51,255,0.2);
+ }
+
+ #abajito{
+     
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    clear: both;
+}
+
+

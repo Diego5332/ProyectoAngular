@@ -1,0 +1,50 @@
+nav.navbar {
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    
+}
+#contenedorNav{
+   max-width: 100%;
+   background-color: rgba(153,51,255,0.2);
+}
+#txtNav{
+    color: white;
+}
+nav.navbar b{
+    color:white;    
+}
+.container{
+    width: 520px;
+    margin-top: 6%;
+    background-color: transparent;
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);  
+    margin-bottom: 10%;
+}
+#patotas{
+    color:white;
+    font-size: 20px;  
+} 
+#patatas{
+    margin-bottom: 10%;
+}
+#datos{
+    padding: 81px 0px 1px 0px;
+}
+#foto{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 300px; height: 300px;
+}
+#fotologo{
+    width: 5%;
+}
+#guardarbtn{
+    margin-bottom:10%;
+
+}
+
+

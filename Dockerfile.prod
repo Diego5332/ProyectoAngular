@@ -1,0 +1,3 @@
+# ng build --pro
+FROM  nginx:1.15
+COPY dist/proAngular /usr/share/nginx/html/

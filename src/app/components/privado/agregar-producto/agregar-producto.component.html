@@ -1,0 +1,84 @@
+<div class="col-md-9" id="contenedorNav">
+    <nav class="navbar navbar-expand-lg navbar-light" id="barraqla">
+     <!-- <a class="navbar-brand" href="#" id="txtNav"></a> -->
+     <img src="https://i.pinimg.com/originals/33/b8/69/33b869f90619e81763dbf1fccc896d8d.jpg" id="fotologo" alt="..." class="img-thumbnail">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" id="txtNav"><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/inicio" id="txtNav">𝙄𝙣𝙞𝙘𝙞𝙤<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/perfil/{{user.id}}" id="txtNav">𝙋𝙚𝙧𝙛𝙞𝙡<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/mis-productos" id="txtNav">𝙈𝙞𝙨 𝙋𝙧𝙤𝙙𝙪𝙘𝙩𝙤𝙨<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/agregar-producto" id="txtNav">𝘼𝙜𝙧𝙚𝙜𝙖𝙧 𝙪𝙣 𝙥𝙧𝙤𝙙𝙪𝙘𝙩𝙤<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="txtNav" (click)="logout()">𝙎𝙖𝙡𝙞𝙧</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+   </div>
+
+
+<div class="container" id="contenedorA">   
+    <form>
+        <div class="container form-inline" id="contenedorN">
+            <span class="label label-primary" id="lblnombre" >𝙉𝙤𝙢𝙗𝙧𝙚: </span>
+            <input type="text" class="form-control" id="txtnombre" name="nombre" [(ngModel)]="nombre">
+        </div>
+        <div id="cbotipo" class="form-group">
+          <select class="form-control" name="tipo" [(ngModel)]="tipo" >
+            <option value="-1" selected>Seleccione Categoría</option>
+            <option value="deporte">Deporte</option>
+            <option value="tecnologia">Tecnología</option>
+            <option value="cocina">Hogar</option>
+            <option value="moda">Moda</option>
+          </select>
+        </div>
+        <div class="container form-inline" id="contenedorN">
+            <span class="label label-primary" id="lblmarca" >𝙈𝙖𝙧𝙘𝙖: </span>
+            <input type="text" class="form-control" id="txtnombre" name="marca" [(ngModel)]="marca">
+        </div>
+        <div id="cboCondicion" class="form-group">
+          <select class="form-control" name="condicion" [(ngModel)]="condicion" >
+            <option value="-1" selected>Seleccione Condición</option>
+            <option value="nuevo">Nuevo</option>
+            <option value="pocoUso">Poco uso</option>
+            <option value="muchoUso">Mucho uso</option>
+        </select>
+        </div>
+          
+        
+        <div class="container form-inline" id="contenedorD">   
+            <span class="label label-primary" id="lbldescripcion" >𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣: </span>
+            <input type="text" class="form-control" id="txtdescripcion" name="descripcion" [(ngModel)]="descripcion">
+        </div>
+        <div class="container form-inline" id="contenedorF">   
+            <span class="label label-primary" id="lblfoto" >𝙁𝙤𝙩𝙤: </span>
+            <input class="form-control" id="txtfoto" type="text" placeholder="Screenshot.png" readonly>
+            <button type="button" class="btn btn-dark" id="btnfoto"> 𝙀𝙭𝙖𝙢𝙞𝙣𝙖𝙧 </button>              
+        </div>
+        <div id="btnpublicar">   
+            <button type="button" class="btn btn-success" id="btnpublicar" (click)="crearProducto()">𝙋𝙪𝙗𝙡𝙞𝙘𝙖𝙧</button>
+
+        </div>
+    </form>
+   
+</div>

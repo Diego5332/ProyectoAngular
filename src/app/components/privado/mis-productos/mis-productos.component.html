@@ -1,0 +1,111 @@
+<div class="col-md-9" id="contenedorNav">
+    <nav class="navbar navbar-expand-lg navbar-light" id="barraqla">
+     <!-- <a class="navbar-brand" href="#" id="txtNav"></a> -->
+     <img src="https://i.pinimg.com/originals/33/b8/69/33b869f90619e81763dbf1fccc896d8d.jpg" id="fotologo" alt="..." class="img-thumbnail">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" id="txtNav"><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/inicio" id="txtNav">𝙄𝙣𝙞𝙘𝙞𝙤<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/perfil/{{user.id}}" id="txtNav">𝙋𝙚𝙧𝙛𝙞𝙡<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/mis-productos" id="txtNav">𝙈𝙞𝙨 𝙋𝙧𝙤𝙙𝙪𝙘𝙩𝙤𝙨<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/privado/agregar-producto" id="txtNav">𝘼𝙜𝙧𝙚𝙜𝙖𝙧 𝙪𝙣 𝙥𝙧𝙤𝙙𝙪𝙘𝙩𝙤<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="txtNav" (click)="logout()">𝙎𝙖𝙡𝙞𝙧</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="/buscar">Search</button>
+        </form>
+      </div>
+    </nav>
+
+   </div>
+
+<div class="container" id="contenedorC">
+    <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="https://www.technobezz.com/files/uploads/2016/07/feature-image-600x369.jpg">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">ESTE IPHONE ESTA DE PANA</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+          </div>
+          <span class="label label-primary" id="lblnombre" >𝙀𝙨𝙩𝙖𝙙𝙤:</span>
+          <input class="form-control" type="text" id="txtintercambiado" placeholder="Intercambiado" readonly>
+        </div>
+        <div class="card">
+            
+          <img class="card-img-top"  src="data:image/jpeg;base64,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" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Play Station 4</h5>
+            <p class="card-text">PS4 >>>>>>>> XBOX</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+          <span class="label label-primary" id="lblnombre" >𝙀𝙨𝙩𝙖𝙙𝙤:</span>
+          <input class="form-control" type="text" id="txtpublicado" placeholder="Publicado" readonly>
+        </div>
+        
+        <div class="card">
+          <img class="card-img-top" src="https://cdn.discordapp.com/attachments/391085584384524292/702029613630619748/unknown.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Silla Gamer DXRACER LEGACY EDITION</h5>
+            <p class="card-text">Perfecto estado, superficie cómoda para duras horas de juego. Recomendadisima</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+          <span class="label label-primary" id="lblnombre" >𝙀𝙨𝙩𝙖𝙙𝙤:</span>
+          <input class="form-control" type="text" id="txtsolicitado" placeholder="Solicitado por: (Nombre solicitante)" readonly>
+        </div>
+      </div>
+</div>
+<div class="container" id="contenedorC1">
+    <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="https://cdn.discordapp.com/attachments/391085584384524292/702036462505558086/unknown.png">
+          <div class="card-body">
+            <h5 class="card-title">Mario Oddysey</h5>
+            <p class="card-text">GOTY GOTY GOTY GOTY GOTY GOTY  PD:lo cambio por pack</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+          </div>
+          <span class="label label-primary" id="lblnombre" >𝙀𝙨𝙩𝙖𝙙𝙤:</span>
+          <input class="form-control" type="text" id="txtintercambiado" placeholder="Intercambiado" readonly>
+        </div>
+        <div class="card">
+            
+          <img class="card-img-top"  src="https://lh3.googleusercontent.com/proxy/hykjchvn6XMPnPXh6Qu6pUBHvtpgd53DN1UfnWcK6cPa4hFEb61LYx2dn6fk0BjNMohspbZW1YTL5kF2L-W9BKGZiw7pT14ViMcnmZMry7hGIz7tkAnnJp5kdZzPAvrUB3te_SZhI6yq" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">XBOX ONE</h5>
+            <p class="card-text">TREMENDA BASOFIA NI SIQUIERA PUEDO SACARMELA DE ENCIMA PORFAVOR LA REGALO</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+          <span class="label label-primary" id="lblnombre" >𝙀𝙨𝙩𝙖𝙙𝙤:</span>
+          <input class="form-control" type="text" id="txtpublicado" placeholder="Publicado" readonly>
+        </div>
+        
+        <div class="card">
+          <img class="card-img-top" src="https://www.sneakerfiles.com/wp-content/uploads/2012/05/adidas-consortium-zx-500-your-story-600x369.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Adidas Consortium ZX 500 </h5>
+            <p class="card-text">ESTAN DE LAS REVIENTA OCICO LO JURO</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+          <span class="label label-primary" id="lblnombre" >𝙀𝙨𝙩𝙖𝙙𝙤:</span>
+          <input class="form-control" type="text" id="txtintercambiado" placeholder="Intercambiado" readonly>
+        </div>
+      </div>

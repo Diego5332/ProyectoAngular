@@ -1,0 +1,45 @@
+nav.navbar {
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    
+}
+#contenedorNav{
+   max-width: 100%;
+   background-color: rgba(153,51,255,0.2);
+}
+#txtNav{
+    color: white;
+}
+nav.navbar b{
+    color:white;    
+}
+#contenedorC{
+    margin-top: 80px;
+}
+#txtpublicado{
+    border-color: orange;
+    border-width: 3px;
+    background-color: orange;
+    
+
+}
+#txtintercambiado{
+    border-color: chartreuse;
+    border-width: 3px;
+    background-color: chartreuse;
+
+}
+#contenedorC1{
+    padding: 0px 13px 120px 15px;
+    margin-top: 40px;
+}
+#fotologo{
+    width: 5%;
+}
+#txtsolicitado{
+    border-color:yellow;
+    border-width: 3px;
+    background-color: yellow;
+
+}

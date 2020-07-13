@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+    angularapp:
+        build: .
+        image: pro-angular-stage
+        ports:
+        - '80:80'
+
+    jsonserver:
+        build:
+            context: .
+            dockerfile: Dockerfile.jsonserver
+        image: json-server
+        ports: 
+        - '3000:3000'
+        links: 
+        - 'angularapp'

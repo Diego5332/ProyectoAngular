@@ -1,0 +1,110 @@
+nav.navbar {
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    
+}
+#contenedorNav{
+   max-width: 100%;
+   background-color: rgba(153,51,255,0.2);
+}
+#txtNav{
+    color: white;
+}
+nav.navbar b{
+    color:white;    
+}
+
+#fotologo{
+    width: 5%;
+}
+#fotoproducto{
+    float: left;
+    background-color: white;
+    width: 40%;
+    height: 40%;
+
+}
+#descripcion{
+    -webkit-box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    float: right;
+    background-color: transparent;
+    width: 40%;
+    height: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#producto{
+    -webkit-box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    background-color: transparent;
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#lblmarca{
+    margin-right: 8.5%;
+    color: white;
+
+}
+#txtnombre{
+    width: 300px;
+    
+}
+#lblnombre{
+    margin-right: 5%;
+    color: white;
+}
+#contenedorN{
+    margin-left: 28px;
+    margin-top: 5%;
+}
+#lbldescripcion{
+    color: white;
+    margin-right: 4.7%;
+}
+#txtdescripcion{
+    width: 300px;
+    height: 250px;
+}
+#lbltipo{
+    margin-right: 30px;
+    color: white;
+}
+#lblcondicion{
+    margin-right: 1%;
+    color: white;
+}
+#patatas{
+    margin-bottom: 5%;
+}
+#patotas{
+    color:white;
+    font-size: 20px;  
+} 
+#lbltipo{
+    margin-right: 12%;
+}
+#contenedorD{
+    margin-left: 7%;
+}
+#foto{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 19%;
+    height: 10%;
+}
+#btnpersona{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#fotoproducto{
+    margin-top: 11%;
+}
+#perfilusuario{
+    margin-bottom: 5%;
+}

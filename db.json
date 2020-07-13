@@ -1,0 +1,138 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "correo": "test@test.com",
+      "nombre": "test",
+      "password": "test",
+      "apellido": "test",
+      "direccion": "Direcction"
+    },
+    {
+      "id": 2,
+      "correo": "nicolas.cook@mayor.cl",
+      "direccion": "Av. San Jose",
+      "password": "funcionaporfavor",
+      "nombre": "Nicolás",
+      "apellido": "Cook"
+    },
+    {
+      "nombre": "lasttest",
+      "apellido": "lasttest",
+      "direccion": "testtest 123",
+      "correo": "lasttest@test.cl",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "nombre": " Diego",
+      "apellido": "Diaz",
+      "direccion": "Direcction",
+      "correo": "correito",
+      "password": "contraseñacompletamentesegura",
+      "id": 4
+    },
+    {
+      "nombre": "xxxxxx",
+      "apellido": "xxxxxx",
+      "direccion": "xxxxxxxxx",
+      "correo": "xxxxxxxx",
+      "password": "xxxxxxxxxx",
+      "id": 5
+    },
+    {
+      "nombre": "tset",
+      "apellido": "tset",
+      "direccion": "tset",
+      "correo": "tset",
+      "password": "tset",
+      "id": 6
+    },
+    {
+      "nombre": "tset",
+      "apellido": "tset",
+      "direccion": "tset",
+      "correo": "tset",
+      "password": "tset",
+      "id": 7
+    },
+    {
+      "nombre": "tset",
+      "apellido": "tset",
+      "direccion": "tset",
+      "correo": "tset",
+      "password": "tset",
+      "id": 8
+    },
+    {
+      "nombre": "tset",
+      "apellido": "tset",
+      "direccion": "tset",
+      "correo": "tset",
+      "password": "tset",
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "nombre": "333",
+      "apellido": "333",
+      "direccion": "333",
+      "correo": "333",
+      "password": "333",
+      "id": 11
+    },
+    {
+      "nombre": " Diego",
+      "apellido": "Diaz",
+      "direccion": "no te voy a dar mi direccion.jpg",
+      "correo": "diego.diazor@mayor.cl",
+      "password": "passwordsecure",
+      "id": 12
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Zapatilla",
+      "descripción": "zapatillas genericas para correr",
+      "estado": "intercambiado",
+      "imagen": "",
+      "tipo": "deporte",
+      "marca": "nike",
+      "condicion": "nuevas",
+      "usuarioId": 1,
+      "id": 1
+    },
+    {
+      "nombre": "testproducto",
+      "tipo": "tecnologia",
+      "marca": "testmarca",
+      "descripcion": "Testdescripción",
+      "condicion": "nuevo",
+      "estado": "disponible",
+      "usuarioId": 11,
+      "id": 2
+    },
+    {
+      "nombre": "testproducto2",
+      "tipo": "tecnologia",
+      "marca": "testmarca2",
+      "descripcion": "Testdescripción2",
+      "condicion": "pocoUso",
+      "estado": "disponible",
+      "usuarioId": 11,
+      "id": 3
+    },
+    {
+      "nombre": "ps4",
+      "tipo": "tecnologia",
+      "marca": "sony",
+      "descripcion": "poquito uso casero",
+      "condicion": "pocoUso",
+      "estado": "disponible",
+      "usuarioId": 12,
+      "id": 4
+    }
+  ]
+}

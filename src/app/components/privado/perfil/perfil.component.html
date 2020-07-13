@@ -1,0 +1,54 @@
+
+    
+    <div class="col-md-9" id="contenedorNav">
+      <nav class="navbar navbar-expand-lg navbar-light" id="barraqla">
+       <!-- <a class="navbar-brand" href="#" id="txtNav"></a> -->
+       <img src="https://i.pinimg.com/originals/33/b8/69/33b869f90619e81763dbf1fccc896d8d.jpg" id="fotologo" alt="..." class="img-thumbnail">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="txtNav"><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/privado/inicio" id="txtNav">𝙄𝙣𝙞𝙘𝙞𝙤<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/privado/mis-productos" id="txtNav">𝙈𝙞𝙨 𝙋𝙧𝙤𝙙𝙪𝙘𝙩𝙤𝙨<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/privado/agregar-producto" id="txtNav">𝘼𝙜𝙧𝙚𝙜𝙖𝙧 𝙪𝙣 𝙥𝙧𝙤𝙙𝙪𝙘𝙩𝙤<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="txtNav" (click)="logout()">𝙎𝙖𝙡𝙞𝙧</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+  
+     </div>
+            <div class="container" >
+                <img src="https://i.pinimg.com/originals/74/6e/6f/746e6f17620864dfe877eb2f4c4a3f58.jpg" id="foto">
+              
+                <div id="datos" class="form-group"> 
+                  <span class="label label-primary" id="patotas" >𝙉𝙤𝙢𝙗𝙧𝙚</span>
+                  <input class="form-control" id="patatas" type="text" placeholder="Ejemplo de nombre" name="nombre" [(ngModel)]="nombre">
+                  <span class="label label-primary" id="patotas" >𝘼𝙥𝙚𝙡𝙡𝙞𝙙𝙤</span>
+                  <input class="form-control" id="patatas" type="text" placeholder="ejemplo de apellido" name="apellido" [(ngModel)]="apellido">
+                  <span class="label label-primary" id="patotas" >𝘾𝙤𝙧𝙧𝙚𝙤</span>
+                  <input class="form-control" id="patatas"  type="text" placeholder="correo@correo.com" name="email" [(ngModel)]="email">
+                  <span class="label label-primary" id="patotas" >𝘿𝙞𝙧𝙚𝙘𝙘𝙞𝙤𝙣</span>
+                  <input class="form-control" id="patatas" type="text" placeholder="avenida patas123" name="direccion" [(ngModel)]="direccion">
+                  <button class="btn btn-outline-success " id="guardarbtn" type="submit" (click)="editarUsuario()">𝙂𝙪𝙖𝙧𝙙𝙖𝙧</button>
+                </div>
+              
+              
+            </div>
+            

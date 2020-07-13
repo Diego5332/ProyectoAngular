@@ -1,0 +1,90 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/45/e1/36/45e136031edebdabec2032a296bf3184.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav.navbar {
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    
+}
+#contenedorNav{
+   max-width: 100%;
+   background-color: rgba(153,51,255,0.2);
+}
+#txtNav{
+    color: white;
+}
+nav.navbar b{
+    color:white;    
+}
+#contenedorA{
+    background-color:transparent;
+    margin-top: 6%;
+    width: 520px;  
+    padding: 95px 25px 95px 25px;   
+    -webkit-box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    box-shadow: 0px 10px 43px 40px rgba(0,0,0,0.51);
+    margin-bottom: 6%;
+}
+#contenedorN{
+    margin-left: 28px;
+}
+#lblnombre{
+    margin-right: 30px;
+    color: white;
+}
+#cbotipo{
+    margin-left:138px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#txtnombre{
+    width: 300px;
+}
+#contenedorD{
+margin-bottom: 30px;
+}
+#lbldescripcion{
+    color: white;
+    margin-right: 30px;
+}
+#txtdescripcion{
+    width: 300px;
+    height: 250px;
+}
+#contenedorF{
+    margin-left: 57px;
+}
+#lblfoto{
+    color: white;
+    margin-right: 30px;
+}
+
+#txtfoto{
+    width: 300px;
+}
+#btnfoto{
+    margin-left: 68px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#btnpublicar{
+    margin-top: 30px;
+    margin-left: 25%;
+}
+#fotologo{
+    width: 5%;
+}
+#cboCondicion{
+    margin-left:138px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#lblmarca{
+    margin-right: 45px;
+    color: white;
+
+}
